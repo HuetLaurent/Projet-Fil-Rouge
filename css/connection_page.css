@@ -15,7 +15,7 @@ body {
     background: linear-gradient(45deg, #EEEEEE 0%, #FFFFFF 100%);
 }
 
-.navbarLeft, .navbarLeft .logo, .navbarLeft .articles, .navbarRight {
+.navbarLeft, .navbarLeft .logo, .navbarLeft .articles {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,20 +32,34 @@ body {
     width: 40px;
 }
 
-.navbarRight a {
-    margin: 0px 40px; 
-    font-size: 22px;
-    text-decoration: none;
-    color: #000000;
-}
-
 /* #################### main #################### */
 
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #EEEEEE 0%, #FFFFFF 100%);
+}
+
+.divConnecion {
+    display: flex;
     flex-direction: row;
-    width: auto;
-    height: 1000px;
+    padding: 150px 0px;
+}
+
+.divConnecionLeft, .divConnecionRight {
+    display: flex;
+    width: 200px;
+    height: 500px;
+}
+
+.divConnecionLeft {
+    background: linear-gradient(45deg, #EEEEEE 0%, #FFFFFF 100%);
+}
+
+.divConnecionRight {
     background: linear-gradient(45deg, #EEEEEE 0%, #FFFFFF 100%);
 }
 
