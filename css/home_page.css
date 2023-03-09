@@ -12,7 +12,7 @@ body {
     width: 100%;
     height: 80px;
     border-bottom: 10px #000000 solid;
-    background: linear-gradient(45deg, #EEEEEE 0%, #FFFFFF 100%);
+    background: #ffffff
 }
 
 .navbarLeft, .navbarLeft .logo, .navbarLeft .articles, .navbarRight {
@@ -21,14 +21,9 @@ body {
     align-items: center;
 }
 
-.navbarLeft .logo a {
-    margin: 0px 10px 0px 40px;
-    height: 80px;
-    width: 40px;
-}
-
 .navbarLeft .logo img {
-    height: 80px;
+    margin: 0px 5px 0px 25px;
+    height: 40px;
     width: 40px;
 }
 
